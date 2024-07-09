@@ -15,9 +15,9 @@ public class MathExample {
         System.out.println("v3= " + v3);
         System.out.println("v4= " + v4);
 
-        double v5 = Math.round(6.7);    // 반올림
+        double v5 = Math.round(6.7);    // 반올림 >> return 타입은 long 주의!
         double v6 = Math.round(6.4);
-        System.out.println("v5= " + v5);
+        System.out.println("v5= " + v5);        // double 로 형변환
         System.out.println("v6= " + v6);
 
         double v7 = abs(-3.14);        // 절대값
@@ -29,5 +29,6 @@ public class MathExample {
 
         System.out.println((int)Math.pow(5, 2)); // 25 , 5^2
         System.out.println((int)Math.sqrt(25));  // 5 , 제곱근25
+
     }
 }
